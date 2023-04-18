@@ -1,0 +1,283 @@
+.container {
+  position: relative;
+  color: black;
+}
+
+.left {
+  position: absolute;
+  top: 30px;
+  left: 100px;
+  color: white;
+}
+
+.left h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.left p {
+  line-height: 22px;
+  font-size: 15px;
+  font-weight: 40px;
+}
+
+.btn {
+  background-color: rgb(190, 0, 0);
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 7px;
+  border: none;
+  font-size: 15px;
+}
+
+.just {
+  width: 120px;
+  margin-left: 50px;
+  margin-top: -5px;
+  background-color: rgb(190, 0, 0);
+  height: 80px;
+}
+
+.imm {
+  border-radius: 7px;
+  /* margin-top: -50px; */
+}
+
+.main {
+  display: flex;
+  padding-left: 100px;
+  margin-top: -50px;
+}
+
+.another {
+  padding-top: -90px;
+  padding-left: 30px;
+}
+
+.another h2 {
+  color: rgb(77, 0, 0);
+  font-weight: bold;
+}
+
+.another p {
+  color: gray;
+}
+
+.main2 {
+  margin-top: -5px;
+  background-color: rgb(245, 231, 214);
+  padding-left: 100px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.main2 p {
+  color: gray;
+  padding-bottom: 50px;
+}
+
+.roww {
+  display: flex;
+  justify-content: space-around;
+}
+
+.roww img {
+  padding-top: 60px;
+}
+
+#btnn {
+  margin-bottom: 60px;
+  margin-top: 30px;
+}
+
+.sets {
+  background-color: rgb(248, 221, 187);
+  border-radius: 7px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.foodcategory {
+  text-align: center;
+  padding-top: 60px;
+}
+
+.link {
+  padding-bottom: 50px;
+}
+
+.link a {
+  text-decoration: none;
+  padding-left: 50px;
+  color: black;
+  transition: 0.2s ease-in-out;
+}
+
+/* visited link */
+.link a:visited {
+  color: rgb(190, 0, 0);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(190, 0, 0);
+}
+
+/* selected link */
+a:active {
+  color: rgb(190, 0, 0);
+}
+
+.flx {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cost {
+  background-color: white;
+  border-radius: 7px;
+  position: relative;
+  margin-top: -50px;
+  text-align: center;
+  width: fit-content;
+  padding: 15px;
+  margin-left: 42px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cost span {
+  background-color: rgb(250, 180, 180);
+  padding: 6px;
+  border-radius: 7px;
+}
+
+.foodie {
+  border-radius: 7px;
+}
+
+.cost button {
+  background-color: white;
+  padding: 10px;
+  border: 0.5px solid gray;
+  border-radius: 7px;
+}
+
+.cost button:hover {
+  color: white;
+  border: none;
+  background-color: rgb(190, 0, 0);
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+#sec {
+  margin-top: 50px;
+}
+
+#mov {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.cont {
+  background-color: rgb(248, 221, 187);
+  padding-left: 100px;
+  display: flex;
+}
+
+.next {
+  padding-top: 20px;
+}
+
+.next h2 {
+  font-weight: bold;
+  font-size: 40px;
+  color: rgb(77, 0, 0);
+}
+
+.let {
+  margin-left: 80px;
+  /* padding: 5px; */
+}
+
+.let img {
+  margin-top: -50px;
+}
+
+#u {
+  margin-left: -50px;
+  margin-top: 1px;
+}
+
+#y {
+  margin-left: 230px;
+  margin-top: -50px;
+}
+
+.almost {
+  background-color: rgb(252, 32, 32);
+  color: white;
+  display: flex;
+}
+
+.ye {
+  margin: 50px;
+}
+
+.butt {
+  display: flex;
+  text-align: center;
+}
+
+.butt button {
+  text-align: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+  margin-right: 40px;
+  padding: 10px;
+  background-color: inherit;
+  border: 0.5px solid white;
+  border-radius: 7px;
+}
+
+.lass {
+  padding-top: 70px;
+  padding-left: 100px;
+  padding-bottom: 70px;
+  display: flex;
+  flex: column;
+  background-color: black;
+  color: white;
+}
+
+.one button {
+  margin-top: 20px;
+}
+
+.two {
+  padding-right: 30px;
+  margin-left: 40px;
+}
+
+.two a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding-bottom: 15px;
+}
+
+.five {
+  margin-left: 70px;
+}
+
+.imagegallery {
+  display: flex;
+  justify-content: space-around;
+}
+
+.imagegallery img {
+  padding: 10px;
+  border-radius: 7px;
+}

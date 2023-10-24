@@ -423,7 +423,7 @@ a:active {
     background-color: white;
     border-radius: 7px;
     position: relative;
-    margin-top: -50px;
+    margin-top: -30px;
     text-align: center;
     width: 50%;
     height: 85px;
@@ -445,16 +445,17 @@ a:active {
 
   .foodie {
     border-radius: 7px;
-    width: 110px;
-    height: 130px;
+    width: 80px;
+    height: 100px;
   }
 
   .cost button {
     background-color: white;
-    padding: 5px;
+    padding: 3px;
     font-size: 8px;
     border: 0.5px solid gray;
     border-radius: 7px;
+    color: #202020;
   }
   .cont {
     background-color: rgb(248, 221, 187);

@@ -280,11 +280,12 @@ a:active {
 
 .imagegallery {
   display: flex;
+
   justify-content: space-around;
 }
 
 .imagegallery img {
-  padding: 10px;
+  margin: 10px;
   border-radius: 7px;
 }
 
@@ -387,6 +388,7 @@ a:active {
   .sets p {
     font-size: 8px;
     color: black;
+    padding-bottom: 5px;
   }
 
   .arrowad {
@@ -423,12 +425,12 @@ a:active {
     background-color: white;
     border-radius: 7px;
     position: relative;
-    margin-top: -30px;
+    margin-top: -20px;
     text-align: center;
     width: 50%;
     height: 85px;
     padding: 3px;
-    margin-left: 30px;
+    margin-left: 29px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
@@ -452,6 +454,7 @@ a:active {
   .cost button {
     background-color: white;
     padding: 3px;
+    margin-top: -20px;
     font-size: 8px;
     border: 0.5px solid gray;
     border-radius: 7px;
@@ -512,8 +515,6 @@ a:active {
     background-color: rgb(252, 32, 32);
     color: white;
     display: grid;
-    padding-left: 30px;
-    padding-right: 30px;
   }
 
   .almost img {
@@ -560,7 +561,7 @@ a:active {
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 70px;
-    display: grid;
+    display: inline-block;
     grid-template-columns: repeat(2, 0);
     background-color: black;
     color: white;
@@ -578,22 +579,26 @@ a:active {
   .two {
     padding-right: 10px;
     margin-left: 10px;
+    display: grid;
+    grid-template-columns: 100px 100px 50px 100px;
   }
 
   .two a {
     text-decoration: none;
-    color: white;
-    font-size: 10px;
+    color: rgb(252, 32, 32);
+    font-size: 14px;
     display: block;
     padding-bottom: 30px;
   }
 
   .two h3 {
-    font-size: 12px;
+    font-size: 10px;
+    margin-top: 0;
   }
 
   .four p {
-    font-size: 12px;
+    font-size: 14px;
+    color: rgb(252, 32, 32);
   }
 
   .five {
@@ -605,8 +610,7 @@ a:active {
     justify-content: space-around;
   }
 
-  .imagegallery img {
-    padding: 10px;
-    border-radius: 7px;
-  }
+  /* .imagegallery img {
+    border-radius: 1px;
+  } */
 }
